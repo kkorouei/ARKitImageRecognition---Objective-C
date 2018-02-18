@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7205D49A203089F700F33A78 /* StatusViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7205D499203089F700F33A78 /* StatusViewController.m */; };
+		720622192033F8370092DCF8 /* ARCamera+TrackingState.m in Sources */ = {isa = PBXBuildFile; fileRef = 720622182033F8370092DCF8 /* ARCamera+TrackingState.m */; };
 		72E093A9202FFEAB00DA7B92 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 72E093A8202FFEAB00DA7B92 /* AppDelegate.m */; };
 		72E093AB202FFEAB00DA7B92 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 72E093AA202FFEAB00DA7B92 /* art.scnassets */; };
 		72E093AE202FFEAB00DA7B92 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 72E093AD202FFEAB00DA7B92 /* ViewController.m */; };
@@ -17,6 +19,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7205D498203089F700F33A78 /* StatusViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = StatusViewController.h; path = ../../StatusViewController.h; sourceTree = "<group>"; };
+		7205D499203089F700F33A78 /* StatusViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = StatusViewController.m; path = ../../StatusViewController.m; sourceTree = "<group>"; };
+		720622172033F8370092DCF8 /* ARCamera+TrackingState.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ARCamera+TrackingState.h"; sourceTree = "<group>"; };
+		720622182033F8370092DCF8 /* ARCamera+TrackingState.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "ARCamera+TrackingState.m"; sourceTree = "<group>"; };
 		72E093A4202FFEAB00DA7B92 /* ARKitImageRecognition-Objective C.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ARKitImageRecognition-Objective C.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		72E093A7202FFEAB00DA7B92 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		72E093A8202FFEAB00DA7B92 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -65,6 +71,10 @@
 				72E093AA202FFEAB00DA7B92 /* art.scnassets */,
 				72E093AC202FFEAB00DA7B92 /* ViewController.h */,
 				72E093AD202FFEAB00DA7B92 /* ViewController.m */,
+				7205D498203089F700F33A78 /* StatusViewController.h */,
+				7205D499203089F700F33A78 /* StatusViewController.m */,
+				720622172033F8370092DCF8 /* ARCamera+TrackingState.h */,
+				720622182033F8370092DCF8 /* ARCamera+TrackingState.m */,
 				72E093AF202FFEAB00DA7B92 /* Main.storyboard */,
 				72E093B2202FFEAD00DA7B92 /* Assets.xcassets */,
 				72E093B4202FFEAD00DA7B92 /* LaunchScreen.storyboard */,
@@ -145,8 +155,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7205D49A203089F700F33A78 /* StatusViewController.m in Sources */,
 				72E093AE202FFEAB00DA7B92 /* ViewController.m in Sources */,
 				72E093B9202FFEAD00DA7B92 /* main.m in Sources */,
+				720622192033F8370092DCF8 /* ARCamera+TrackingState.m in Sources */,
 				72E093A9202FFEAB00DA7B92 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
