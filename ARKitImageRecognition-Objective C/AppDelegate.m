@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import <ARKit/ARKit.h>
 
 @interface AppDelegate ()
 
@@ -16,7 +17,9 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    if (!ARWorldTrackingConfiguration.isSupported) {
+        [NSException raise:@"Error" format:@"ARKit is not available on this device. For apps that require ARKit\n for core functionality, use the `arkit` key in the key in\n the`UIRequiredDeviceCapabilities` section of the Info.plist to prevent\n the app from installing. (If the app can't be installed, this error\n can't be triggered in a production scenario.)\n In apps where AR is an additive feature, use `isSupported` to\n determine whether to show UI for launching AR experiences."];
+    }
     return YES;
 }
 
